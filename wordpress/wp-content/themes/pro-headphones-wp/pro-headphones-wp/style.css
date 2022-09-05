@@ -536,10 +536,6 @@ a {
 	color: #4169e1;
 }
 
-a:visited {
-	color: #800080;
-}
-
 a:hover,
 a:focus,
 a:active {
@@ -967,3 +963,79 @@ textarea {
 	margin-right: auto;
 	margin-bottom: 1.5em;
 }
+
+/*--------------------------------------------------------------
+# Custom styles
+--------------------------------------------------------------*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #534c4c;
+}
+
+a {
+    color: #534c4c;
+}
+
+a:hover {
+    color: #BBB17F;
+}
+
+li {
+    list-style: none;
+}
+
+i {
+    margin-right: 1em; 
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+footer li {
+    font-size: 1.2em;
+}
+
+.top-bar input {
+    margin-right: 2rem;
+}
+
+.menu-text {
+    font-size: 1.2em;
+}
+
+.button {
+    background-color: #534c4c;    
+}
+
+.button:hover {
+    background-color: #BBB17F;
+}
+
+.top-bar, .top-bar ul {
+    background: none;
+}
+
+#feature img { 
+    margin-bottom: 2em;
+}
+
+#range {
+    margin: 1.2em 0;
+}
+
+#newsletter {
+    background: #bbb;
+    margin-top: 1.2em;
+    padding: 2em;
+    color: #fff;
+}
+
+footer {
+    background: #2d2d2d;
+    padding: 1.2em;
+    color: white;
+}
+
